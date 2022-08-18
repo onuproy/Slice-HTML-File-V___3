@@ -210,9 +210,8 @@ p{
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.list_content{}
 .list_content ul {
-    padding-left: 30px;
+    padding-left: 35px;
 }
 .list_content ul li {
     font-family: 'Roboto';
