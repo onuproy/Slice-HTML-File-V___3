@@ -330,6 +330,9 @@ line-height: 16px;
     font-size: 22px;
     display: inline-block;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
 }
 .dropdown-content {
     display: none;
