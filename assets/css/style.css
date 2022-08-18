@@ -338,6 +338,9 @@ line-height: 16px;
     border-radius: 45px;
     max-width: 400px;
     z-index: 1;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 .dropdown_content p span {
