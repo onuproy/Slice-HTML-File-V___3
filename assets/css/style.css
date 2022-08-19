@@ -484,3 +484,12 @@ line-height: 16px;
 .font_style_normal ul li{
   font-style: normal !important;
 }
+.font_500 p{
+  font-weight: 500;
+}
+.new_class_p ul li p{
+  padding-bottom: 5px;
+}
+.font_400 ul li{
+  font-weight: 400;
+}
