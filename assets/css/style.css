@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -108,7 +107,7 @@ img{
 }
 
 #page-top {
-	overflow-x: hidden !important;
+  overflow-x: hidden !important;
 }
 h1{
   font-family: 'Roboto';
@@ -145,9 +144,15 @@ small{
     border-top-right-radius: 30px;
     overflow: hidden;
     border-top-left-radius: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .menu_title p{
   font-weight: 700;
@@ -160,7 +165,8 @@ small{
     margin-bottom: 30px;
 }
 .born_title span{
-  text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
 }
 .image{
   text-align: center;
@@ -173,9 +179,15 @@ small{
     border-bottom-right-radius: 30px;
     overflow: hidden;
     border-bottom-left-radius: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .footer_title a {
     font-family: 'Roboto';
@@ -235,7 +247,8 @@ p span{
 /*correct-exception*/
 
 .content .line_through{
-  text-decoration-line: line-through; 
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through; 
   font-weight: 300; 
   color: #000000;
 }
@@ -248,7 +261,8 @@ p span{
   background: #FFF6A7;
 }
 .p_underline{
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   color: #000000
 }
 /*.mt-20{
@@ -288,6 +302,9 @@ p span{
 }
 .pt_50{
   padding-top: 50px;
+}
+.pb_50{
+  padding-bottom: 50px;
 }
 .custom p{
   color: #4a4848;;
@@ -365,8 +382,12 @@ line-height: 16px;
     font-size: 22px;
     display: inline-block;
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0px 15px;
 }
 .dropdown_menu2 a {
@@ -374,8 +395,12 @@ line-height: 16px;
     font-size: 22px;
     display: inline-block;
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0px 15px;
 }
 .dropdown_menu3 a {
@@ -383,8 +408,12 @@ line-height: 16px;
     font-size: 22px;
     display: inline-block;
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0px 15px;
 }
 .dropdown-content {
@@ -461,10 +490,6 @@ line-height: 16px;
   color: #000;
 }
 
-
-
-
-
 .padding{
   padding: 10px;
 }
@@ -492,4 +517,8 @@ line-height: 16px;
 }
 .font_400 ul li{
   font-weight: 400;
+}
+
+.p_span_class p span{
+  font-weight: 300;
 }
