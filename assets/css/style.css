@@ -480,3 +480,7 @@ line-height: 16px;
 .dropdown-content p{
   font-size: 22px;
 }
+
+.font_style_normal ul li{
+  font-style: normal !important;
+}
